@@ -16,6 +16,8 @@ spec:
       labels:
         app: booking
     spec:
+      imagePullSecrets:
+        - name: github    
       containers:
         # CHANGE TO YOURS:<org/repo:tag>
         - image: ghcr.io/dawidsip/course-bm-booking:latest

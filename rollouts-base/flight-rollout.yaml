@@ -16,6 +16,8 @@ spec:
       labels:
         app: flight
     spec:
+      imagePullSecrets:
+        - name: github    
       containers:
         # CHANGE TO YOURS:<org/repo:tag>
         - image: ghcr.io/dawidsip/course-bm-flight:latest
