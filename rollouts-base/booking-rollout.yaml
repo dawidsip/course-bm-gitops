@@ -40,7 +40,7 @@ spec:
       # stableService: booking-stable
       # trafficRouting:
       #   nginx:
-      #     stableIngress: booking-microservies
+      #     stableIngress: booking-microservices
       # steps:
       # - setWeight: 20
       # - pause: {}
